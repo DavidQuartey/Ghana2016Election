@@ -4,7 +4,7 @@ library(dplyr)
 library(ggthemes)
 
 ####Import Data into R###
-pc <- read.csv("C:/R/ghana_2016_parliamentary_candidates/ghana_parliamentary_candidates_2016.csv")
+pc <- read.csv("C:/R/ghana_parliamentary_candidates_2016.csv")
 
 ####Total number of constituencies###
 pc_constituency <- group_by(pc, constituency)
